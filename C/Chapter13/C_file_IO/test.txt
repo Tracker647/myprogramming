@@ -1,0 +1,2 @@
+This is a testing for fprintf
+write end

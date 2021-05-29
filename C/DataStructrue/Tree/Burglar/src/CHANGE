@@ -1,0 +1,11 @@
+Status PreOrderTraverse(BiTree *T, Status(*Visit)(TElemType e))
+{
+	if (T) {
+		if (Visit((*T)->data))
+			if (PreOrderTraverse((*T)->lchild, Visit))
+				if (PreOrderTraverse((*T)->rchild, Visit))
+					return OK;
+		return ERROR;
+	}
+	else return OK;
+}//PreOrderTraverse

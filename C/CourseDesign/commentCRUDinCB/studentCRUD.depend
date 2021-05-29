@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1611050048 source:e:\myprogramming\c\practicing\studentcrud\main.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+

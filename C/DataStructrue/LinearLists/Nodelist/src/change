@@ -1,0 +1,36 @@
+Node Difference(Node *A, Node *B)
+//求A-B将结果存放在C中
+{
+	Node *L, *rear;
+	L = rear = (Node*)malloc(sizeof(Node));
+	while (A!=NULL && B!=NULL)
+	{
+		if (A->data < B->data)
+		{
+			rear = Append(rear, A->data);
+			
+			A = A->next;
+		}
+		else if (A->data==B->data)
+		{
+			A = A->next;
+			B = B->next;
+
+		}
+		else
+		{
+			B = B->next;
+		}
+	}
+	while (A != NULL)/*如果A中还有剩余元素，把剩下的元素追加到C中*/
+	{
+		rear = Append(rear, A->data);
+		
+		A = A->next;
+	}
+	rear->next = NULL;/*最后一个结点的指针域置为空*/
+	rear = L;         
+	L = L->next;      /*指向第一个结点*/
+	free(rear);       /*释放头结点*/
+	return L;
+}

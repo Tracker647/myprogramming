@@ -1,0 +1,85 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Launch Main01",
+            "request": "launch",
+            "mainClass": "mylearn.polymorphism.Main01",
+            "projectName": "mylearn"
+        },
+        {
+            "type": "java",
+            "name": "Launch Main01",
+            "request": "launch",
+            "mainClass": "mylearn.多态.Main01",
+            "projectName": "mylearn"
+        },
+        {
+            "type": "java",
+            "name": "Launch Main01",
+            "request": "launch",
+            "mainClass": "mylearn.构造方法.Main01",
+            "projectName": "mylearn"
+        },
+        {
+            "type": "java",
+            "name": "Launch Method_case01",
+            "request": "launch",
+            "mainClass": "Method_case01",
+            "projectName": "mylearn"
+        },
+        {
+            "type": "java",
+            "name": "Launch verison",
+            "request": "launch",
+            "mainClass": "verison",
+            "projectName": "mylearn"
+        },
+        {
+            "type": "java",
+            "name": "Launch BeCareArray",
+            "request": "launch",
+            "mainClass": "BeCareArray",
+            "projectName": "mylearn"
+        },
+        {
+            "type": "java",
+            "name": "Launch Accuadd",
+            "request": "launch",
+            "mainClass": "Accuadd",
+            "projectName": "mylearn"
+        },
+        {
+            "type": "java",
+            "name": "Launch ArrayLoop",
+            "request": "launch",
+            "mainClass": "ArrayLoop",
+            "projectName": "Java_12ed931e"
+        },
+        {
+            "name": "gcc.exe - 生成和调试活动文件",
+            "type": "cppdbg",
+            "request": "launch",
+            "program": "${fileDirname}\\${fileBasenameNoExtension}.exe",
+            "args": [],
+            "stopAtEntry": false,
+            "cwd": "D:\\mingw64\\bin",
+            "environment": [],
+            "externalConsole": false,
+            "MIMode": "gdb",
+            "miDebuggerPath": "D:\\mingw64\\bin\\gdb.exe",
+            "setupCommands": [
+                {
+                    "description": "为 gdb 启用整齐打印",
+                    "text": "-enable-pretty-printing",
+                    "ignoreFailures": true
+                }
+            ],
+            "preLaunchTask": "C/C++: gcc.exe build active file"
+        }
+    ]
+}

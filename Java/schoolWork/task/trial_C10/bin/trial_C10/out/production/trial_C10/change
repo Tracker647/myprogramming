@@ -1,0 +1,3 @@
+	System.out.println("a isPrime? "+a.isPrime());
+		System.out.println("Statically, A is a Prime? "+ MyInteger.isPrime(a.getValue()));
+		System.out.println("Statically, A is a Prime? "+ MyInteger.isPrime(a));
